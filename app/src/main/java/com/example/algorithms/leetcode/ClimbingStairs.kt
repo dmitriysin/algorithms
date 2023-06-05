@@ -21,7 +21,6 @@ open class ClimbingStairs {
      */
 
      fun climbStairs(n: Int): Int {
-        n = 3
         var a = 0
         var result = 1
         var i = 0

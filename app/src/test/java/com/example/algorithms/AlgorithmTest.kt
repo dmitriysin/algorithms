@@ -1,9 +1,7 @@
 package com.example.algorithms
 
 import com.example.algorithms.infrastructure.RandomProblem
-import com.example.algorithms.leetcode.HappyNumber
-import com.example.algorithms.leetcode.Search2DMatrix
-import com.example.algorithms.leetcode.array.FindPeakElement
+import com.example.algorithms.leetcode.graph.NumberProvinces
 import org.junit.Test
 
 class AlgorithmTest {
@@ -25,14 +23,12 @@ class AlgorithmTest {
     @Test
     fun test() {
         val s1 = arrayOf(
-            intArrayOf(2, 5, 8, 12, 19),
-            intArrayOf(1, 4, 7, 11, 15),
-            intArrayOf(3, 6, 9, 16, 22),
-            intArrayOf(10, 13, 14, 17, 24),
-            intArrayOf(18, 21, 23, 26, 30)
+            intArrayOf(1,0,0),
+            intArrayOf(0,1,0),
+            intArrayOf(0,0,1),
         )
-        val arr = intArrayOf(1, 2, 3, 1)
-        val x = Search2DMatrix().searchMatrix(s1,5)
+        val arr = intArrayOf(1,2,3,5,7)
+        val x = NumberProvinces().findCircleNum(s1)
         val xx = 0
     }
 }
