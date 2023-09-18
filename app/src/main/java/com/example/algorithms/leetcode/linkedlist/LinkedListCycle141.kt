@@ -1,4 +1,4 @@
-package com.example.algorithms.leetcode
+package com.example.algorithms.leetcode.linkedlist
 
 import com.example.algorithms.infrastructure.ListNode
 

@@ -1,4 +1,4 @@
-package com.example.algorithms.leetcode
+package com.example.algorithms.leetcode.matrix
 
 /**
  * 73

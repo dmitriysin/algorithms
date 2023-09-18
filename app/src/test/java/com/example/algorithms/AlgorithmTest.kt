@@ -1,7 +1,10 @@
 package com.example.algorithms
 
 import com.example.algorithms.infrastructure.RandomProblem
-import com.example.algorithms.leetcode.graph.NumberProvinces
+import com.example.algorithms.leetcode.backtracking.WordSearch
+import com.example.algorithms.leetcode.dp.FrogJump
+import com.example.algorithms.leetcode.priorityheap.KthLargestElementArray
+import com.example.algorithms.sort.KthLargestElement
 import org.junit.Test
 
 class AlgorithmTest {
@@ -12,24 +15,17 @@ class AlgorithmTest {
         println("leetcode problem number is: $number")
     }
 
-    /**
-     * [9,10,9,-7,-4,-8,2,-6]
-     * 10,10,9,2
-     * [1,2,3,4,5,6]
-     * [1,2,6,24,120,720]
-     * [720,720,360,120,30,6]
-     * [24,12,8,6]
-     */
     @Test
     fun test() {
-        val s1 = arrayOf(
-            intArrayOf(1,0,0),
-            intArrayOf(0,1,0),
-            intArrayOf(0,0,1),
+        val arr = arrayOf(
+            charArrayOf('A', 'B', 'C', 'E'),
+            charArrayOf('S', 'F', 'E', 'S'),
+            charArrayOf('A', 'D', 'E', 'E'),
         )
-        val arr = intArrayOf(1,2,3,5,7)
-        val x = NumberProvinces().findCircleNum(s1)
-        val xx = 0
+        val test = WordSearch().exist(arr, "ABCESEEEFS")
+
+        val x = 0
     }
+
 }
 

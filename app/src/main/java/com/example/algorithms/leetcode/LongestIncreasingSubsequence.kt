@@ -38,10 +38,4 @@ class LongestIncreasingSubsequence {
             res = count
         }
     }
-
-    val arr1 = intArrayOf(0, 1, 0, 3, 2, 3)
-
-    fun fregw() {
-
-    }
 }

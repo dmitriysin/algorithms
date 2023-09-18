@@ -23,7 +23,7 @@ class QuickSort {
     private fun partition(a: IntArray, lo: Int, hi: Int): Int {
         var i = lo + 1
         var j = hi
-        while (true) {
+        while (true) {  
             while (a[i] <= a[lo]) {
                 if (i == hi) break
                 i++
