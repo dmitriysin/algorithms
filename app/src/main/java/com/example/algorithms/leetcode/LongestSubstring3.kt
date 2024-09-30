@@ -1,7 +1,6 @@
 package com.example.algorithms.leetcode
 
 class LongestSubstring3 {
-
     fun lengthOfLongestSubstring(s: String): Int {
         val map = HashMap<Int, Char>()
         val charsArray = s.toCharArray()

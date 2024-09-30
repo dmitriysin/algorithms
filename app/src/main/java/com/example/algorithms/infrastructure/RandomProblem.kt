@@ -2,36 +2,7 @@ package com.example.algorithms.infrastructure
 
 class RandomProblem {
     fun getProblemNumber(): Int {
-        val unsolvedProblems = intArrayOf(
-            110,
-            111,
-            112,
-            119,
-            168,
-            169,
-            190,
-            191,
-            202,
-            203,
-            205,
-            228,
-            231,
-            232,
-            234,
-            258,
-            263,
-            278,
-            303,
-            338,
-            349,
-            367,
-            389,
-            401,
-            414,
-        )
-
         val topQuestions = intArrayOf(
-            4,
             5,
             10,
             15,
@@ -68,7 +39,6 @@ class RandomProblem {
             149,
             150,
             152,
-            169,
             179,
             189,
             204,
@@ -78,6 +48,7 @@ class RandomProblem {
             218,
             236,
             239,
+            287,
             289,
             295,
             297,
@@ -94,6 +65,10 @@ class RandomProblem {
             384,
             395,
             454,
+            486,
+            918,
+            1048,
+            1658
         )
         return topQuestions.random()
     }
